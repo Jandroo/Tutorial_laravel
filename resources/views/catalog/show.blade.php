@@ -27,7 +27,7 @@
         @endif
 
         <a class="btn btn-warning" href="{{url('catalog/edit/'.$id)}}"><span class="glyphicon glyphicon-pencil"></span>Editar película</a>
-        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-chevron-left"></span>Volver al listado</button>
+        <button class="btn btn-default" type="button" onclick="window.history.back()" ><span class="glyphicon glyphicon-chevron-left"></span>Volver al listado</button>
 
     </div>
 </div>
